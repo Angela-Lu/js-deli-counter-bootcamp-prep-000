@@ -1,4 +1,5 @@
 function takeANumber(line, name) {
+<<<<<<< HEAD
  var x
  line.push(name)
   for (var i = 0; i < line.length; i++) {
@@ -34,5 +35,11 @@ function currentLine(line) {
       }
     }
     return ("The line is currently: " + x)
+=======
+ var i
+ line.push(name)
+  for(i = 0; i < line.length; i++) {
+    return (`Welcome, ${line}. You are number ` + parse.int(i) + 1 + ` in line`)
+>>>>>>> 1177454ef0f121e90a919d5fd74774e92159f127
   }
 }
